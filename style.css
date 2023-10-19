@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(22.5deg, rgba(221, 221, 221, 0.04) 0%, rgba(221, 221, 221, 0.04) 56%, rgba(7, 7, 7, 0.04) 56%, rgba(7, 7, 7, 0.04) 100%), linear-gradient(112.5deg, rgba(227, 227, 227, 0.04) 0%, rgba(227, 227, 227, 0.04) 14%, rgba(56, 56, 56, 0.04) 14%, rgba(56, 56, 56, 0.04) 100%), linear-gradient(45deg, rgba(39, 39, 39, 0.04) 0%, rgba(39, 39, 39, 0.04) 34%, rgba(196, 196, 196, 0.04) 34%, rgba(196, 196, 196, 0.04) 100%), linear-gradient(0deg, rgba(20, 20, 20, 0.04) 0%, rgba(20, 20, 20, 0.04) 84%, rgba(75, 75, 75, 0.04) 84%, rgba(75, 75, 75, 0.04) 100%), linear-gradient(90deg, rgb(175, 31, 79), rgb(201, 35, 98));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid white;
+    padding: 30px;
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(55, 196, 220);
+    font-size: 62px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add-todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-todo input,
+.todo-item p {
+    padding: 6px;
+    width: 100%;
+    font-size: 32px;
+}
+
+.add-todo i,
+.todo-item i {
+    background-color: white;
+    position: relative;
+    right: 36px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.add-todo i:hover,
+.todo-item i:hover {
+    color: aqua;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-item p {
+    background-color: white;
+    width: 100%;
+}
+
+.todo{
+    background-color: aqua;
+    width: 400px;
+    height: 40px;
+}
